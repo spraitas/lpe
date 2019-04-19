@@ -16,9 +16,13 @@ body {
 
 .slim-nav {
 
-    height: 45%;
+    height: 35px;
 }
 
 .slim-crumb {
-    height: 40%;
+    height: 35px;
+}
+
+.slim-footer {
+    height: 25px;
 }
