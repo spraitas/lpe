@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      
+  .corner-logo-small {
+    width: 50px;
+    height: 50px;
+  }
+
+
+.slim-nav {
+
+    height: 45%;
+}
+
+.slim-crumb {
+    height: 40%;
+}

@@ -1,0 +1,28 @@
+
+.fromTop{
+ margin-top: 5px;
+}
+
+
+.txt14{
+	font-size: 14px !important;
+}
+
+
+.card-image {
+width: 200px;
+ //height: 400px;
+ //overflow: hidden
+
+}
+
+.carousel { 
+
+//min-height: 900px;
+}
+
+
+.carousel .carousel-item {
+width: 350px !important;
+
+}
