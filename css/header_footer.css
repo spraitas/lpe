@@ -16,13 +16,26 @@ body {
 
 .slim-nav {
 
-    height: 35px;
+    height: 40px;
 }
 
 .slim-crumb {
-    height: 35px;
+    height: 40px;
 }
 
-.slim-footer {
-    height: 25px;
-}
+/* .crumb-custom {
+    color: blue !important;
+} */
+
+.slim-footer .blue {
+  /*  height: 25px; */
+} 
+
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+
