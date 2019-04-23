@@ -4,6 +4,11 @@ html {
 	font-family: 'Ubuntu Mono', monospace;
 }
 
+body {
+	//background-color: #cccccc;
+	background: linear-gradient(to top, #212121  0%, #a5d6a7 100%)
+}
+
 .fromTop{
  margin-top: 5px;
 }
