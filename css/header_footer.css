@@ -8,21 +8,22 @@ body {
     flex: 1 0 auto;
   }
       
-  .corner-logo-small {
-    width: 50px;
-    height: 50px;
+.lpe-brand-logo {
+    margin-top:5px;
+    height: 40px;
   }
-
 
 .slim-nav {
 
-    height: 35px;
 }
 
 .slim-crumb {
-    height: 35px;
+  //  height: 40px;
 }
 
 .slim-footer {
-    height: 25px;
-}
+    //height: 25px;
+} 
+
+
+
