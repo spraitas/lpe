@@ -45,7 +45,7 @@
             <div class="col s12">
                     <div class="card horizontal">
                     <div class="card-image">
-                        <img src="images/ls.jpg">
+                        <img src="images/yasukuni_jinja.jpg">
                         </div>
                             <div class="card-stacked">
                                     
@@ -66,36 +66,7 @@
 
             <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
             
-            <script type="text/javascript">
-            // Load google charts
-            google.charts.load('current', {'packages':['corechart']});
-            google.charts.setOnLoadCallback(drawChart);
-
-            // Draw the chart and set the chart values
-            function drawChart() {
-              var data = google.visualization.arrayToDataTable([
-              ['Task', 'Hours per Day'],
-              ['Darbas', 0],
-              ['Maisto gaminimas', 2],
-              ['Kompiuteriniai zaidimai', 4],
-              ['Sportas', 0],
-              ['Darzo prieziura', 4],
-              ['Miegas', 7],
-              ['Bimbinejimas', 2],
-             
-             
-            ]);
-
-              // Optional; add a title and set the width and height of the chart
-              var options = {
-                backgroundColor: 'transparent',
-                'title':'Mano klasikine diena', 'width':650, 'height':400};
-
-              // Display the chart inside the <div> element with id="piechart"
-              var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-              chart.draw(data, options);
-            }
-            </script>
+            
             </div>
 
     </div>
@@ -117,6 +88,8 @@
 
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+
+    <script type="text/javascript" src="js/egidijus_graphic.js"></script>
 </body>
 
 </html>

@@ -23,15 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
-
-
-
-
-
-
-
-
 // Initialize and add the map
 function initMap() {
   // The location of Uluru
