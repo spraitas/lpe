@@ -28,24 +28,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-<<<<<<< HEAD
-$('.items a').on('click', function() {
-  var $this = $(this),
-      $bc = $('<div class="item"></div>');
-
-  $this.parents('li').each(function(n, li) {
-      var $a = $(li).children('a').clone();
-      $bc.prepend(' / ', $a);
-  });
-    $('.breadcrumb').html( $bc.prepend('<a href="#home">Home</a>') );
-    return false;
-}) 
 
 
 
 
-=======
->>>>>>> 0653a1870b878de9140fe90f45a1f8652a85c22c
 // Initialize and add the map
 function initMap() {
   // The location of Uluru
