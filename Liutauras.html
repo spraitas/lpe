@@ -36,7 +36,7 @@
 
     <main>
 
-    <h4 class=" fromTop header container center  blue-grey lighten-4">Personal</h4>
+    <h4 class=" fromTop header container center light-green darken-4 z-depth-3">Personal</h4>
 
     <div class="fromTop container row">
         <div class="col s12  blue-grey lighten-5 z-depth-3">
@@ -44,7 +44,7 @@
             <div class="col s12">
                     <div class="card horizontal">
                     <div class="card-image">
-                        <img src="images/Pitch-Black-1.png">
+                        <img src="images/ls.jpg">
                         </div>
                             <div class="card-stacked">
                                     
@@ -58,15 +58,13 @@
             </div>
 
 
-
-            <div class="center">
-            <div id="piechart"></div>
+            <div class="col s12 center">
+            
+            <div id="piechart" ></div>
 
 
             <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
             
-
             <script type="text/javascript">
             // Load google charts
             google.charts.load('current', {'packages':['corechart']});
@@ -88,17 +86,21 @@
             ]);
 
               // Optional; add a title and set the width and height of the chart
-              var options = {'title':'Mano klasikine diena', 'width':650, 'height':400};
+              var options = {
+                backgroundColor: 'transparent',
+                'title':'Mano klasikine diena', 'width':650, 'height':400};
 
               // Display the chart inside the <div> element with id="piechart"
               var chart = new google.visualization.PieChart(document.getElementById('piechart'));
               chart.draw(data, options);
             }
             </script>
+            </div>
 
     </div>
 
-
+    <canvas id="myChart" style="display: block;"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
 
 
@@ -113,6 +115,7 @@
         </footer>
 
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
