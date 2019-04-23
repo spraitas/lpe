@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+        <link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection" />
+        <link type="text/css" rel="stylesheet" href="css/header_footer.css" media="screen,projection" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="white">
+
+        <nav class="slim-nav">
+                <div class=" nav-wrapper light-green darken-4">
+                    <a href="index.html"><img src="images/sf2.jpeg" class="brand-logo left lpe-brand-logo"></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="about_us1.html">About us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        
+            <nav class="light-green darken-3 slim-crumb">
+                <div class="nav-wrapper">
+                    <div class="col s12">
+                        <a href="#!" class="breadcrumb">Home</a>
+                        <a href="#!" class="breadcrumb">News</a>
+                        <a href="#!" class="breadcrumb">About us</a>
+                    </div>
+                </div>
+            </nav>
+
+    <main>
+
+    <h4 class=" fromTop header container center light-green darken-4 z-depth-3">Personal</h4>
+
+    <div class="fromTop container row">
+        <div class="col s12  blue-grey lighten-5 z-depth-3">
+                
+            <div class="col s12">
+                    <div class="card horizontal">
+                    <div class="card-image">
+                        <img src="images/ls.jpg">
+                        </div>
+                            <div class="card-stacked">
+                                    
+                                    <div class="card-content">                              
+                                    <p>Just about everyone knows about actor Mark Sinclair Vincent.  Well, to be more precise, I actually mean, everyone knows the actor Mark Sinclair…
+                                    Just about everyone knows about actor Mark Sinclair Vincent.  Well, to be more precise, I actually mean, everyone knows the actor Mark SinclairJust about everyone knows about actor Mark Sinclair Vincent.  Well, to be more precise, I actually mean, everyone knows the actor Mark Sinclair
+                                    Just about everyone knows about actor Mark Sinclair Vincent.  Well, to be more precise, I actually mean, everyone knows the actor Mark SinclairJust about everyone knows about actor Mark Sinclair Vincent.  Well, to be more precise, I actually mean, everyone knows the actor Mark Sinclair</p>
+                                    </div>
+                            </div>
+                    
+            </div>
+
+
+            <div class="col s12 center">
+            
+            <div id="piechart" ></div>
+
+
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+            
+            <script type="text/javascript">
+            // Load google charts
+            google.charts.load('current', {'packages':['corechart']});
+            google.charts.setOnLoadCallback(drawChart);
+
+            // Draw the chart and set the chart values
+            function drawChart() {
+              var data = google.visualization.arrayToDataTable([
+              ['Task', 'Hours per Day'],
+              ['Darbas', 0],
+              ['Maisto gaminimas', 2],
+              ['Kompiuteriniai zaidimai', 4],
+              ['Sportas', 0],
+              ['Darzo prieziura', 4],
+              ['Miegas', 7],
+              ['Bimbinejimas', 2],
+             
+             
+            ]);
+
+              // Optional; add a title and set the width and height of the chart
+              var options = {
+                backgroundColor: 'transparent',
+                'title':'Mano klasikine diena', 'width':650, 'height':400};
+
+              // Display the chart inside the <div> element with id="piechart"
+              var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+              chart.draw(data, options);
+            }
+            </script>
+            </div>
+
+    </div>
+
+    <canvas id="myChart" style="display: block;"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+
+
+
+
+
+
+    </main>
+
+    <footer class="page-footer slim-footer light-green darken-4">
+            <center class="light-green darken-4">LPE Team, 2019</center>
+        </footer>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
