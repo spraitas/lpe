@@ -31,3 +31,21 @@ width: 200px;
 width: 350px !important;
 
 }
+
+.tabs .indicator{
+    background-color:#558b2f;
+}
+
+.tabs .tab a{
+            color:#33691e;
+}
+
+.tabs .tab a:hover {
+            background-color:#f1f8e9;
+            color:#33691e;
+}
+
+.tabs .tab a:focus.active {
+            background-color:#dcedc8;
+            color:#33691e;
+}

@@ -15,3 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.parallax');
     var instances = M.Parallax.init(elems);
   });
+
+  var elem = document.querySelector('.tabs');
+     var options = {};
+     var instance = M.Tabs.init(elem, options);
