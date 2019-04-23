@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+<<<<<<< HEAD
 $('.items a').on('click', function() {
   var $this = $(this),
       $bc = $('<div class="item"></div>');
@@ -43,6 +44,8 @@ $('.items a').on('click', function() {
 
 
 
+=======
+>>>>>>> 0653a1870b878de9140fe90f45a1f8652a85c22c
 // Initialize and add the map
 function initMap() {
   // The location of Uluru
