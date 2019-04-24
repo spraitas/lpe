@@ -50,3 +50,9 @@ document.addEventListener('DOMContentLoaded', function() {
   console.log(M.Modal);
   var instances = M.Modal.init(elems);
 });
+
+// Slideriui
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.slider');
+  var instances = M.Slider.init(elems, options);
+});
