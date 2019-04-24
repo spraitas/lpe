@@ -13,17 +13,31 @@ body {
     height: 40px;
   }
 
+  .lpe-dropdown-item {
+    font-size: 11pt !important;
+  }
+  
+  .lpe-about-dropdown-btn {
+     margin-left: 0px !important;
+  }
+
+  .lpe-breadcrumb {
+    font-size: 11pt !important;
+  }
+  
+
 .slim-nav {
 
 }
 
 .slim-crumb {
-  //  height: 40px;
+  height:35px !important;
 }
 
 .slim-footer {
-    //height: 25px;
+
 } 
+
 
 
 
