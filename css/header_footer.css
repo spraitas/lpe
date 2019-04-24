@@ -25,19 +25,21 @@ body {
     font-size: 11pt !important;
   }
   
+  .slim-crumb {
+    height:30px !important;
+  }
 
-.slim-nav {
+  .lpe-footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
+ }
 
+.lpe-footer-p {
+  margin-bottom: 0px;
+  font-size: 10pt;
 }
 
-.slim-crumb {
-  height:35px !important;
-}
-
-.slim-footer {
-
-} 
-
-
-
-
+  
