@@ -48,9 +48,20 @@
 
     <main>
 
-    <h4 class=" fromTop header container center light-green darken-4 light-green darken-4 z-depth-3 white-text">Personal</h4>
+    <div class="fromTop row container light-green darken-4 z-depth-3 botom0">
+        <div class="col s1">
+            <i class="small material-icons">chevron_left</i>
+        </div>
 
-    <div class="fromTop container row">
+        <div class="col s10">
+    <h4 class="header container center white-text">Personal</h4>
+        </div>
+        <div class="col s1 right-align">
+            <i class="small material-icons">chevron_right</i>
+        </div>
+    </div>
+
+    <div class="container row">
         <div class="col s12  blue-grey lighten-5 z-depth-3">
                 
             <div class="col s12">
@@ -69,21 +80,88 @@
                     
             </div>
 
+      <div class="col s12 center container">
+            
+                <div class="col s6 m6">
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+                    <canvas id="myChart" style="display: block;"></canvas>
+
+                </div>
+                <div class="col s6 m6">
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+                    <canvas id="myChart1" style="display: block;"></canvas>
+                    
+                </div>
+                      
+            </div>
+
+            
 
             <div class="col s12 center">
             
-                <div id="piechart"></div>
+                <div class="col s6 m6">
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+                    <canvas id="myChart2" style="display: block;"></canvas>
 
-                <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+                </div>
+                <div class="col s6 m6">
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+                    <canvas id="myChart3" style="display: block;"></canvas>
+                    
+                </div>
                       
             </div>
+
+
+
+
+
+
+            <div class="fromTop col s12 center">
+                <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="images/ls_001.jpg"> 
+                <div class="caption right-align">
+                 
+                  <h5 class="light grey-text text-lighten-3">Kazkam namie negerai:)</h5>
+                </div>
+              </li>
+              <li>
+                <img src="images/ls_002.jpg">
+                <div class="caption left-align">
+                  <h3>Samurajaus ausytes!</h3>
+                  
+                </div>
+              </li>
+              <li>
+                <img src="images/ls_003.jpg"> 
+                <div class="caption right-align">
+                  <h3 class="blue-grey-text">Proto miegas gimdo pabaisas</h3>
+                  
+                </div>
+              </li>
+              <li>
+                <img src="images/ls_004.jpg"> 
+                <div class="caption center-align">
+                  <h3>Nu va ir viskas!</h3>
+                  
+                </div>
+              </li>
+            </ul>
+          </div>
+
+
+            </div>
+
 
     </div>
 
 
 
-    <canvas id="myChart" style="display: block;"></canvas>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    
+    
 
 
 
