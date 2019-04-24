@@ -1,3 +1,4 @@
+// Karuselei
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
     var options ={
@@ -11,20 +12,18 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Carousel.init(elems, options);
   });
 
+  // Paralax efektui
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.parallax');
     var instances = M.Parallax.init(elems);
   });
 
+// About tabs'u efektui
   var elem = document.querySelector('.tabs');
      var options = {};
      var instance = M.Tabs.init(elem, options);
 
-
-
-
-
-// Initialize and add the map
+// About zemelapiui
 function initMap() {
   // The location of Uluru
   var uluru = {lat: 54.710067, lng: 25.292306};
@@ -34,3 +33,13 @@ function initMap() {
   // The marker, positioned at Uluru
   var marker = new google.maps.Marker({position: uluru, map: map});
 }
+
+// About us Drop down'ui
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.dropdown-trigger');
+  var options = {
+    hover: true,
+    coverTrigger: false
+  };
+  var instances = M.Dropdown.init(elems, options);
+});
