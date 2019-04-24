@@ -18,22 +18,32 @@
 
 <body class="white">
  
-        <nav class="slim-nav light-green darken-4">
-                <div class="nav-wrapper light-green darken-4 z-depth-5">
-                    <a href="index.html"><img src="images/sf2.jpeg" class="brand-logo left lpe-brand-logo"></a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="about_us1.html">About us</a></li>
+    <nav class="slim-nav light-green darken-4">
+        <div class="nav-wrapper light-green darken-4 z-depth-5">
+            <a href="index.html"><img src="images/sf2.jpeg" class="brand-logo left lpe-brand-logo"></a>
+
+            <ul id="nav-mobile" class="right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li>
+                    <!-- Dropdown Trigger -->
+                    <a class='lpe-about-dropdown-btn hover light-green darken-4 dropdown-trigger btn' href='about_us1.html' data-target='dropdown1'>About us</a>
+                    <!-- Dropdown Structure -->
+                    <ul id='dropdown1' class='dropdown-content light-green darken-3'>
+                        <li><a class="lpe-dropdown-item white-text" href="Liutauras.html">Liutauras</a></li>
+                        <li><a class="lpe-dropdown-item white-text" href="Povilas.html">Povilas</a></li>
+                        <li><a class="lpe-dropdown-item white-text" href="Egidijus.html">Egidijus</a></li>
                     </ul>
-                </div>
-            </nav>
+                </li>
+            </ul>
+        </div>
+    </nav>
         
             <nav class="light-green darken-3 slim-crumb valign-wrapper">
                 <div class="valign-wrapper">
                     <div class="col s12">
                             <a href="index.html" class="breadcrumb lpe-breadcrumb"><u>Home</u></a>
-                        <a href="#!" class="breadcrumb">About us</a>
+                        <a href="#!" class="breadcrumb lpe-breadcrumb">About us</a>
                     </div>
                 </div>
             </nav>
