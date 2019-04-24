@@ -26,8 +26,8 @@ body {
 
   .lpe-breadcrumb {
     font-size: 11pt !important;
-    margin-left: 10px;
-  }
+    margin-left: 10px;  
+    }
   
   .slim-crumb {
     height:28px !important;
@@ -44,6 +44,7 @@ body {
 .lpe-footer-p {
   margin-bottom: 0px;
   font-size: 10pt;
+  padding-right: 10px;
 }
 
   
