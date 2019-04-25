@@ -100,7 +100,7 @@ var chart = new Chart(ctx, {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.slider');
+    var elems = document.querySelectorAll('#lslider');
     var options ={
         indicators: false,
 
