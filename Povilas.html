@@ -66,26 +66,53 @@
         </div>
     </div>
 
-
     <div class="container row">
         <div class="col s12  blue-grey lighten-5 z-depth-3">
-                
-            <div class="col s12 m8 offset-m2 l6 offset-l3">
-                <div class="card-panel grey lighten-5 z-depth-1">
-                  <div class="row valign-wrapper">
-                    <div class="col s2">
-                      <img src="images/Povilas.jpg" alt="" class="circle hoverable responsive-img"> <!-- notice the "circle" class -->
+            <div class=" z-depth-1">
+                        <div class="card-panel z-depth-1">
+                          <div class="row valign-wrapper">
+                            <div class="col s2">
+                              <img src="images/Povilas.jpg" alt="" class="circle hoverable responsive-img"> <!-- notice the "circle" class -->
+                            </div>
+                            <div class="col s10">
+                              <span class="black-text">
+                                Hello there! My name is Povilas! :)
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                     
+            <p class="section white z-depth-1" style="padding-left: 10px;padding-right: 5px">
+                    After completion of the film Dark Star (1974), writer Dan O'Bannon wanted to develop some of the ideas and create a science-fiction action film. Provisionally called Memory, screenwriter Ronald Shusett collaborated with O'Bannon on the project, adding elements from a previous O'Bannon script, Gremlins, which featured gremlins causing mayhem aboard a World War II bomber. The duo finished the script, initially titled Star Beast — it was changed to Alien after O'Bannon noticed the number of times the word "alien" occurred in the script.[8][9] Their script was sold to Brandywine Productions, which had a distribution deal with 
+            </p>
+
+            <div class="section white z-depth-1">
+                <div class="row">
+                    <div class="col s6">
+                            <canvas id="pirmas_doughnut" style="display: block;"></canvas>  
                     </div>
-                    <div class="col s10">
-                      <span class="black-text">
-                        Hello there! My name is Povilas! :)
-                      </span>
+                    <div class="col s6">
+                            <canvas id="antras_doughnut" style="display: block;"></canvas>  
                     </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-            </div>
+                    <span class="black-text">
+                            Sci-Fi movies seen by country
+                          </span>
+                    <canvas id="pirmas_doughnut" style="display: block;"></canvas>             
+                </div>
+
+                <div class="section white z-depth-1">
+                        <canvas id="antras_bar" style="display: block;"></canvas>
+                    </div>
+
+                    <div class="section white z-depth-1">
+                            <canvas id="trecias_line" style="display: block;"></canvas>
+                        </div>
+                  
+                      
+        </div>
+    </div>
+                
     </main>
 
     <div class="lpe-footer right-align">
@@ -93,9 +120,12 @@
                         Team</u></a>, 2019</p>
         </div>
 
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/liutauras.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>   
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/povilas.js"></script>
+   
 </body>
 
 </html>
