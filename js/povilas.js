@@ -8,16 +8,16 @@ var chart = new Chart(ctx, {
         labels: ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven'],
         datasets: [{
             label: 'Sci-Fi movies seen',
-            backgroundColor: ["rgba(255, 99, 132)",
+            backgroundColor: ["rgba(255, 255, 255)",
             "rgba(232, 111, 64, 0.2)",
             "rgba(111, 205, 86)",
             "rgba(111, 192, 192, 0.2)",
             "rgba(111, 162, 235)",
             "rgba(111, 102, 255, 0.2)",
             "rgba(111, 203, 207)"],
-            borderColor: "rgb(214, 214, 214)",
+            borderColor: "rgb(5, 58, 1)",
             borderWidth: 1,
-            data: [1, 10, 5, 12, 20, 13, 15]
+            data: [1, 1, 1, 1, 1, 1, 1]
         }]
     },
 
