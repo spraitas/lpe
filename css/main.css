@@ -63,3 +63,7 @@ width: 350px !important;
    height: 400px;
    background-color: grey;
  }
+
+ .max-width {
+  width: 100%;
+ }
