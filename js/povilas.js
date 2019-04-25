@@ -96,8 +96,12 @@ var chart = new Chart(ctx, {
 });
 
 // Slider
-
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.slider');
+    var options = {
+        indicators: false,
+        duration: 400,
+        interval: 5000
+    };
     var instances = M.Slider.init(elems, options);
   });
