@@ -86,11 +86,11 @@ var chart = new Chart(ctx, {
         labels: ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6'],
         datasets: [{
             label: 'Dienos norma',
-            backgroundColor: "rgba(255, 99, 132, 0)",
+            backgroundColor: "rgba(211, 99, 132, 0)",
           
             borderColor: "rgb(214, 214, 214)",
             borderWidth: 1,
-            data: [99, 10, 5, 12, 20, 13, 15]
+            data: [1, 3, 5, 4, 5, 2, 3]
         }]
     },
 
