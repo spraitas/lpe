@@ -8,16 +8,16 @@ var chart = new Chart(ctx, {
         labels: ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven'],
         datasets: [{
             label: 'Sci-Fi movies seen',
-            backgroundColor: ["rgba(255, 99, 132)",
-            "rgba(232, 111, 64, 0.2)",
-            "rgba(111, 205, 86)",
-            "rgba(111, 192, 192, 0.2)",
-            "rgba(111, 162, 235)",
-            "rgba(111, 102, 255, 0.2)",
-            "rgba(111, 203, 207)"],
-            borderColor: "rgb(214, 214, 214)",
+            backgroundColor: ["rgba(255, 1, 255)",
+            "rgb(5, 10, 1)",
+            "rgb(5, 20, 1)",
+            "rgb(5, 30, 1)",
+            "rgb(5, 40, 1)",
+            "rgb(5, 50, 1)",
+            "rgb(5, 60, 1)",],
+            borderColor: "rgb(5, 58, 1)",
             borderWidth: 1,
-            data: [1, 10, 5, 12, 20, 13, 15]
+            data: [1, 1, 1, 1, 1, 1, 1]
         }]
     },
 
@@ -94,3 +94,14 @@ var chart = new Chart(ctx, {
     // Configuration options go here
     options: {}
 });
+
+// Slider
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+    var options = {
+        indicators: false,
+        duration: 400,
+        interval: 5000
+    };
+    var instances = M.Slider.init(elems, options);
+  });
