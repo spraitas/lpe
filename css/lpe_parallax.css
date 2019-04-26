@@ -1,0 +1,51 @@
+/* FIRST PARALAX --------------------- */
+
+/* Smallest */
+@media only screen and (max-width: 400px) {
+    #parallax1  { 
+        width: 20%;
+        height: auto;
+    }
+  }
+
+  /* Medium */
+@media only screen and (max-width: 600px) {
+    #parallax1  { 
+        width: 20%;
+        height: auto;
+    }
+  }
+
+  /* SECOND PARALAX --------------------- */
+/* Smallest */
+@media only screen and (max-width: 400px) {
+    #parallax2  { 
+        width: 20%;
+        height: auto;
+    }
+  }
+
+  /* Medium */
+@media only screen and (max-width: 600px) {
+    #parallax2  { 
+        width: 20%;
+        height: auto;
+    }
+  }
+  
+ /* THIRD PARALAX --------------------- */
+  /* Smallest */
+@media only screen and (max-width: 400px) {
+    #parallax3  { 
+        width: 20%;
+        height: auto;
+    }
+  }
+
+  /* Medium */
+@media only screen and (max-width: 600px) {
+    #parallax3  { 
+        width: 20%;
+        height: auto;
+    }
+  }
