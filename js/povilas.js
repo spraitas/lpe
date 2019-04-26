@@ -5,19 +5,19 @@ var chart = new Chart(ctx, {
 
     // The data for our dataset
     data: {
-        labels: ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven'],
+        labels: ['Pizza', 'Burgers', 'Potato chips', 'Chicken wings'],
         datasets: [{
-            label: 'Sci-Fi movies seen1',
-            backgroundColor: ["rgb(5, 1 , 1)",
-            "rgb(5, 10, 1)",
-            "rgb(5, 40, 1)",
-            "rgb(5, 80, 1)",
-            "rgb(5, 130, 1)",
-            "rgb(5, 180, 1)",
-            "rgb(5, 240, 1)",],
+            label: 'Likes',
+            backgroundColor: [
+                "rgb(14, 249, 14)",
+                "rgb(15, 191, 15)",
+                "rgb(8, 127, 8)",
+                "rgb(4, 86, 4)",
+                ],
             borderColor: "rgb(5, 58, 1)",
-            borderWidth: 2,
-            data: [1, 1, 1, 1, 1, 1, 1]
+            borderWidth: 1,
+            hoverBorderWidth: 3,
+            data: [5, 3, 1, 2]
         }]
     },
 
@@ -34,19 +34,20 @@ var chart = new Chart(ctx, {
 
     // The data for our dataset
     data: {
-        labels: ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven'],
+        labels: ['Alien', 'Star Wars', 'Terminator', 'Predator', 'Matrix'],
         datasets: [{
-            label: 'Sci-Fi movies seen2',
-            backgroundColor: ["rgba(255, 99, 132)",
-            "rgb(3, 90, 250)",
-            "rgb(3, 80, 200)",
-            "rgb(3, 80, 150)",
-            "rgb(3, 100, 100)",
-            "rgb(3, 110, 80)",
-            "rgb(3, 120, 50)",],
+            label: 'Likes',
+            backgroundColor: [
+                "rgb(107, 197, 239)",
+                "rgb(71, 148, 183)",
+                "rgb(35, 112, 147)",
+                "rgb(12, 82, 114)",
+                "rgb(1, 49, 112)",
+           ],
             borderColor: "rgb(3, 20, 1)",
-            borderWidth: 2,
-            data: [1, 1, 1, 1, 1, 1, 1]
+            borderWidth: 1,
+            hoverBorderWidth: 3,
+            data: [10, 9, 5, 6, 8,]
         }]
     },
 
@@ -63,48 +64,19 @@ var chart = new Chart(ctx, {
 
     // The data for our dataset
     data: {
-        labels: ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven'],
+        labels: ['Skyrim', 'Red-Alert 2', 'Ghost recon: Wildlands', 'Portal 2', 'Alien: Isolation'],
         datasets: [{
-            label: 'Sci-Fi movies seen2',
-            backgroundColor: ["rgba(255, 99, 132)",
-            "rgb(3, 90, 250)",
-            "rgb(3, 80, 200)",
-            "rgb(3, 80, 150)",
-            "rgb(3, 100, 100)",
-            "rgb(3, 110, 80)",
-            "rgb(3, 120, 50)",],
+            label: 'Likes',
+            backgroundColor: ["rgb(255, 237, 38)",
+                "rgb(214, 203, 55)",
+                "rgb(181, 171, 43)",
+                "rgb(155, 146, 35)",
+                "rgb(122, 113, 8)",
+                ],
             borderColor: "rgb(3, 20, 1)",
-            borderWidth: 2,
-            data: [1, 1, 1, 1, 1, 1, 1]
-        }]
-    },
-
-    // Configuration options go here
-    options: {
-        cutoutPercentage: 70,
-    }
-});
-
-var ctx = document.getElementById('ketvirtas_doughnut').getContext('2d');
-var chart = new Chart(ctx, {
-    // The type of chart we want to create
-    type: 'doughnut',
-
-    // The data for our dataset
-    data: {
-        labels: ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven'],
-        datasets: [{
-            label: 'Sci-Fi movies seen2',
-            backgroundColor: ["rgba(255, 99, 132)",
-            "rgb(3, 90, 250)",
-            "rgb(3, 80, 200)",
-            "rgb(3, 80, 150)",
-            "rgb(3, 100, 100)",
-            "rgb(3, 110, 80)",
-            "rgb(3, 120, 50)",],
-            borderColor: "rgb(3, 20, 1)",
-            borderWidth: 2,
-            data: [1, 1, 1, 1, 1, 1, 1]
+            borderWidth: 1,
+            hoverBorderWidth: 3,
+            data: [259, 200, 63, 30, 20]
         }]
     },
 
@@ -121,13 +93,27 @@ var chart = new Chart(ctx, {
 
     // The data for our dataset
     data: {
-        labels: ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven'],
+        labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
         datasets: [{
-            label: 'Sci-Fi movies seen3',
-            backgroundColor: ["rgba(255, 99, 132, 0.2)","rgba(255, 159, 64, 0.2)","rgba(255, 205, 86, 0.2)","rgba(75, 192, 192, 0.2)","rgba(54, 162, 235, 0.2)","rgba(153, 102, 255, 0.2)","rgba(201, 203, 207, 0.2)"],
-            borderColor: ["rgb(255, 99, 132)","rgb(255, 159, 64)","rgb(255, 205, 86)","rgb(75, 192, 192)","rgb(54, 162, 235)","rgb(153, 102, 255)","rgb(201, 203, 207)"],
-            borderWidth: 1,
-            data: [1, 10, 5, 12, 20, 13, 15]
+            label: 'How I like this day',
+            backgroundColor: ["rgba(255, 99, 132, 0.2)",
+             "rgba(100, 159, 64, 0.2)", 
+             "rgba(255, 205, 86, 0.2)",
+              "rgba(75, 192, 192, 0.2)",
+               "rgba(54, 162, 235, 0.2)", 
+               "rgba(153, 102, 255, 0.2)", 
+               "rgba(201, 203, 207, 0.2)"],
+            borderColor: [
+                "rgb(5, 50, 1)",
+                "rgb(5, 50, 1)",
+                "rgb(5, 50, 1)",
+                "rgb(5, 50, 1)",
+                "rgb(5, 50, 1)",
+                "rgb(5, 50, 1)",
+                "rgb(5, 50, 1)"],
+            borderWidth: 2,
+            hoverBorderWidth: 3,
+            data: [0, 3, 6, 7, 8, 10, 9]
         }]
     },
 
@@ -136,12 +122,12 @@ var chart = new Chart(ctx, {
 });
 
 // Slider
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.slider');
     var options = {
         indicators: false,
-        duration: 400,
+        duration: 300,
         interval: 5000
     };
     var instances = M.Slider.init(elems, options);
-  });
+});
